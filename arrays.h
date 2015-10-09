@@ -3,5 +3,8 @@
 
 void task_1();
 
+// Task 2
+void task_2();
+
 /* #ifndef ARRAYS_H: */
 #endif
