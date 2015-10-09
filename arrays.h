@@ -15,5 +15,9 @@ void task_4();
 // copy arr1 to arr2
 void task_5_copy(int *, int *, int);
 
+// Task 7
+// print array `arr`
+void task_7_print(int *, int, char = ' ');
+
 /* #ifndef ARRAYS_H: */
 #endif

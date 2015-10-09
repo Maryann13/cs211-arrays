@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cassert>
-#include "arrays.h"
+
+using namespace std;
 
 void task_1()
 {
@@ -73,16 +74,17 @@ void task_6_poor_copy(int * arr1, int * arr2)
         arr2[i] = arr1[i];
     }
 }
+#endif
 
 // Task 7
 // print array `arr`
 void task_7_print(int * arr, int size, char delim = ' ')
 {
     // Hint: something wrong here; run this from main()
-    for(int i = 0; i <= size; ++i)
-    {
-        std::cout << a[i] << delim;
-    }
+	for (int i = 0; i < size; ++i)
+	{
+		cout << arr[i] << delim;
+	}
+	cout << endl;
 }
 
-#endif

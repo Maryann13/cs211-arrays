@@ -11,4 +11,5 @@ int main()
 	int b[5];
 
 	task_5_copy(a, b, 5);
+	task_7_print(b, 5);
 }
