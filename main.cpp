@@ -2,5 +2,5 @@
 
 int main()
 {
-
+	task_1();
 }
