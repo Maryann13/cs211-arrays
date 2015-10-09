@@ -63,18 +63,15 @@ void task_5_copy(int * arr1, int * arr2, int size)
 		*arr2++ = *p++;
 }
 
-#if 0
 // Task 6
 // copy array `arr1` to array `arr2` of the same size
-void task_6_poor_copy(int * arr1, int * arr2)
-{
-    // Hint: something wrong here; test this from main()
-    for(int i = 0; i < sizeof(arr2); ++i)
-    {
-        arr2[i] = arr1[i];
-    }
-}
-#endif
+/*
+	template <class InputIterator>
+	void task_6_poor_copy(InputIterator arr1_beg, InputIterator arr1_end, int * arr2)
+	{
+		implemented in the header file
+	}
+*/
 
 // Task 7
 // print array `arr`

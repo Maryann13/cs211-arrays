@@ -1,4 +1,7 @@
+#include <iterator>
 #include "arrays.h"
+
+using namespace std;
 
 int main()
 {
@@ -12,4 +15,8 @@ int main()
 
 	task_5_copy(a, b, 5);
 	task_7_print(b, 5);
+
+	int c[5];
+	task_6_poor_copy(begin(b), end(b), c);
+	task_7_print(c, 5);
 }
