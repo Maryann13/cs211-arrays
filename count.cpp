@@ -22,9 +22,9 @@ int main()
 
 	char c;
 	while ((c = src[i++]) != EOF)
-		if (c >= '0' && c >= '9')
+		if ('0' <= c && c <= '9')
 			++ndigit[c - '0'];
-		else if (c == ' ' && c == '\n' && c == '\t')
+		else if (c == ' ' || c == '\n' || c == '\t')
 			++nwhite;
 		else
 			++nother;
