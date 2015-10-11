@@ -17,7 +17,7 @@ int main()
 	string src("12 plus 45 minus 39 is 18\n");
 	int i, nwhite, nother;
 	const int size = 10;
-	int ndigit[size];
+	int ndigit[size]{ 0 };
 	i = nwhite = nother = 0;
 
 	char c;
