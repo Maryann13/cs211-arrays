@@ -1,4 +1,5 @@
 #include <string>
+#include <iostream>
 #include <cstdio>
 
 using namespace std;
