@@ -2,6 +2,8 @@
 #include <iostream>
 #include <cstdio>
 
+#define EOLN 0
+
 using namespace std;
 
 /* count digits, white space, others */
@@ -21,7 +23,7 @@ int main()
 	i = nwhite = nother = 0;
 
 	char c;
-	while ((c = src[i++]) != EOF)
+	while ((c = src[i++]) != EOLN)
 		if ('0' <= c && c <= '9')
 			++ndigit[c - '0'];
 		else if (c == ' ' || c == '\n' || c == '\t')
