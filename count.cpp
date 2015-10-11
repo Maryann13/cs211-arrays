@@ -18,7 +18,7 @@ int main()
 	int i, nwhite, nother;
 	const int size = 10;
 	int ndigit[size];
-	nwhite = nother = 0;
+	i = nwhite = nother = 0;
 
 	char c;
 	while ((c = src[i++]) != EOF)
