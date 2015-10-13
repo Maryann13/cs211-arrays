@@ -84,4 +84,3 @@ void task_7_print(int * arr, int size, char delim = ' ')
 	}
 	cout << endl;
 }
-
