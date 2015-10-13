@@ -39,7 +39,7 @@ void paintHistogram(string src)
 		for (mapIterator beg = freqDict.begin();
 			beg != freqDict.end(); ++beg)
 		{
-				cout << ((beg->second >= i) ? "_   " : "    ");
+			cout << ((beg->second >= i) ? "_   " : "    ");
 		}
 		cout << endl;
 	}
